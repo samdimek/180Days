@@ -17,10 +17,9 @@ One can view HTML as the skeleton of web development, while CSS on its end acts 
 - Tables and Forms
 
 #### Head elements
-<title> </title> tag is used to describe content that is placed on the browser's tab.
+`<title> </title>` tag is used to describe content that is placed on the browser's tab.
 
 Apart from the title, other head elements are meta tags, used to describe the web page.
-
 `<meta charset= "">` is used to describe the character set used. Character sets may include; ASCII, Unicode, UTF-8, UTF-16, ANSI(Windows 1252) among others.
 `<meta name="viewpoint" content="width=device-width", "initial-scale= 1.0">` - used to make responsive web pages
 `<meta name="description">` is used to describe the webpage, and most time description keywords end up being used for SEO.
