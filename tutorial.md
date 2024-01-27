@@ -28,6 +28,7 @@ Apart from the title, other head elements are meta tags, used to describe the we
 
 `<link relation="stylesheet" href="index.css">` is used to link the index.html file to a styling sheet, index.css
 Also, one could link to an online stylesheet like fontawesome, in this way, one needs to attach the URL instead as the reference.
+
 `<script></script>` tag is used to link the html to an external script, in this case, Javascript.
 
 #### Layout elements
