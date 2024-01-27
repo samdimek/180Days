@@ -32,4 +32,13 @@ Also, one could link to an online stylesheet like fontawesome, in this way, one 
 `<script></script>` tag is used to link the html to an external script, in this case, Javascript.
 
 #### Layout elements
-`<div> </div>` element is the most commonly used, for pretty much anything. It takes in some attrbutes; class, id. ID attribute is used only for one particular attribute and not multiple.
+`<div> </div>` element is the most commonly used, for pretty much anything. It takes in some attrbutes; class, id. 
+
+Before, the div element was used to separate content while the class attribute to differentiate one div from another. ID attribute is used only for one particular attribute and not multiple.
+
+To differentiate content on html5, one could use `<header></header>` element, `<footer></footer>` element, `<section></section>` element which also takes the `<main></main>` elements as a child element, `<aside></aside>` element used to describe any other thing apart from the main. Lastly we have `<article></article>` element.
+
+#### Video & Image embedding
+Question: How do we embedd audio to a webpage?
+
+The `<img>` tag is used to add images to webpages. It has no closing tag and requires 2 attributes; *src=""* and *alt=""* .
