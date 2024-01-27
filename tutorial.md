@@ -18,11 +18,16 @@ One can view HTML as the skeleton of web development, while CSS on its end acts 
 
 #### Head elements
 <title> </title> tag is used to describe content that is placed on the browser's tab.
-Apart from the titla, other head elements are meta tags, used to describe the web page
-<meta charset= ""> is used to describe the character set used. Character sets may include; ASCII, Unicode, UTF-8, UTF-16, ANSI(Windows 1252) among others.
-<meta name="viewpoint" content="width=device-width", "initial-scale= 1.0"> - used to make responsive web pages
-<meta name="description"> is used to describe the webpage, and most time description keywords end up being used for SEO.
 
-<link relation="stylesheet" href="index.css"> is used to link the index.html file to a styling sheet, index.css
+Apart from the title, other head elements are meta tags, used to describe the web page.
+
+`<meta charset= "">` is used to describe the character set used. Character sets may include; ASCII, Unicode, UTF-8, UTF-16, ANSI(Windows 1252) among others.
+`<meta name="viewpoint" content="width=device-width", "initial-scale= 1.0">` - used to make responsive web pages
+`<meta name="description">` is used to describe the webpage, and most time description keywords end up being used for SEO.
+
+`<link relation="stylesheet" href="index.css">` is used to link the index.html file to a styling sheet, index.css
 Also, one could link to an online stylesheet like fontawesome, in this way, one needs to attach the URL instead as the reference.
-<script></script> tag is used to link the html to an external script, in this case, Javascript.
+`<script></script>` tag is used to link the html to an external script, in this case, Javascript.
+
+#### Layout elements
+`<div> </div>` element is the most commonly used, for pretty much anything. It takes in some attrbutes; class, id. ID attribute is used only for one particular attribute and not multiple.
