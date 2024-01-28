@@ -42,3 +42,28 @@ To differentiate content on html5, one could use `<header></header>` element, `<
 Question: How do we embedd audio to a webpage?
 
 The `<img>` tag is used to add images to webpages. It has no closing tag and requires 2 attributes; *src=""* and *alt=""* .
+
+One could use the `<figure>` element to specify any self-contained content; illustrations, code, photos, diagrams, etc. The tag takes a child element of `<figCaption>` that provides a caption for the figure element. Attributes could be added for styling.
+
+To attach a video, the `<video>` element is used, it has no closing tag. It takes src attribute, control, autoplay, muted, loop, preload, width="", among others. Video element can take source element as a nested element and the type attribute could be used to describe the video format.
+
+`<iframe>` element inside a div could be another way to embedd a video. Takes in attributes like: width, height, and src.
+
+#### Navigation Bar & List
+`<nav> </nav>` element is used to describe a navbar. This could include child element `<ul> </ul>` or `<ol> </ol>` for bulleted list and numbered ones respectively.
+One can change the display of the list and align them horizontally. 
+
+Headings begin from h1 to h6, with h1 being the largest heading.
+
+#### Tables
+The most interesting thing on html, imo. I think one could really work around with the skills on tables to create something nice.
+The `<table>` element takes a child element table-row, `<tr>` that also takes a child element of table data, `<td>`. `<th>` table header could also be a child element for `<tr>`.
+
+Other table elements include: `<thead></thead>`, `<tbody> </tbody>`, and `<tfoot></tfoot>`
+`<colgroup> </colgroup>` is used to specify a group of 1or more columns in a table.
+
+#### Random Hacks
+- To create space, create another paragraph with the `<p> </p>` tag rather than using the `<br>` tag several times.
+- `<blockquote>` tag allows content to standout while `<q> </q>` is used for short quote.
+- `<code>` tag allows the browser to know you have code there.
+- What do you think `<mark>` tag is used for?
