@@ -66,4 +66,4 @@ Other table elements include: `<thead></thead>`, `<tbody> </tbody>`, and `<tfoot
 - To create space, create another paragraph with the `<p> </p>` tag rather than using the `<br>` tag several times.
 - `<blockquote>` tag allows content to standout while `<q> </q>` is used for short quote.
 - `<code>` tag allows the browser to know you have code there.
-- What do you think `<mark>` tag is used for?
+- What do you think `<mark>` tag is used for?b
