@@ -16,7 +16,12 @@ One can view HTML as the skeleton of web development, while CSS on its end acts 
 - Ordered & Bulleted lists
 - Tables and Forms
 
+* HTML ignores empty spaces, this includes new lines.
+* 
+
 #### Head elements
+html uses elements to describe the webpage components.
+An attribute is used to modify an element, each attribute name must have a corresponding value.
 `<title> </title>` tag is used to describe content that is placed on the browser's tab.
 
 Apart from the title, other head elements are meta tags, used to describe the web page.
@@ -67,3 +72,10 @@ Other table elements include: `<thead></thead>`, `<tbody> </tbody>`, and `<tfoot
 - `<blockquote>` tag allows content to standout while `<q> </q>` is used for short quote.
 - `<code>` tag allows the browser to know you have code there.
 - What do you think `<mark>` tag is used for?b
+- `<a href="https://www.Dev's-Playground.com/" target="_blank">Dev's site </a>` Allows for the link to be opened in a new browser page.
+
+
+## Cascading Stylesheet
+-------------------------
+
+Style element allows for writing css code on the html file.

@@ -1,0 +1,42 @@
+
+.subscribe-btn {
+    background-color: red;
+    color: white;
+    height: 33px;
+    width: 101px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.join-btn {
+    background-color: white;
+    height: 33px;
+    width: 49px;
+    border-radius: 3px;
+    border-color: rgb(9, 9, 9);
+    border-style: double;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.tweet-btn {
+    color: white;
+    border: none;
+    width: 49px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: rgb(9, 9, 9);
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.request-now {
+    background-color: rgb(9, 9, 9);
+    border: 3px;
+    width: 99px;
+    height: 33px;
+    border-style: double;
+    color: white;
+    border-spacing: 40px;
+}
