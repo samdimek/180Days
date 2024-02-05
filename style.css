@@ -1,0 +1,111 @@
+
+
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    align-items: center;
+    float: right;
+    display: inline;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.nav-link Leaderboard {
+    margin-left: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+main a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: #444;
+}
+
+.subscribe-btn {
+    background-color: red;
+    color: white;
+    height: 33px;
+    width: 101px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: green;
+}
+
+.subscribe-btn:active {
+    background-color: greenyellow;
+}
+
+.join-btn {
+    background-color: white;
+    height: 33px;
+    width: 49px;
+    border-radius: 3px;
+    border-color: rgb(9, 9, 9);
+    border-style: double;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.tweet-btn {
+    color: white;
+    border: none;
+    width: 49px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: rgb(9, 9, 9);
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.request-now {
+    background-color: rgb(9, 9, 9);
+    border: 3px;
+    width: 99px;
+    height: 33px;
+    border-style: double;
+    color: white;
+    border-spacing: 40px;
+}
