@@ -2,47 +2,63 @@
 
 
 .body {
-    height: 125vh;
-    background-image: url(assets/Backgroundpic04.jpg);
-    background-size: cover;
-    font-family: sans-serif;
-    margin-top: 80px;
-    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.main {
+.header {
+    background-color: #333;
     color: white;
-}
-
-.nav-center {
-    background-color: rgb(9, 9, 9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
 
-.nav-header {
-    height: 10px;
-    width: 20px;
-}
-
-.header * {
-    display: inline;
+.nav-logo {
+    height: 50px;
+    margin-left: 20px;
 }
 
 .nav-links {
-    align-items: center;
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-link {
-    margin: 20px;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    align-items: center;
+    float: right;
+    display: inline;
 }
 
+.nav-link:hover {
+    color: #ccc;
+}
 
+.nav-link Leaderboard {
+    margin-left: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+main a {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: #444;
+}
 
 .subscribe-btn {
     background-color: red;
