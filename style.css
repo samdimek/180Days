@@ -1,4 +1,49 @@
 
+
+
+.body {
+    height: 125vh;
+    background-image: url(assets/Backgroundpic04.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.main {
+    color: white;
+}
+
+.nav-center {
+    background-color: rgb(9, 9, 9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header {
+    height: 10px;
+    width: 20px;
+}
+
+.header * {
+    display: inline;
+}
+
+.nav-links {
+    align-items: center;
+}
+
+.nav-link {
+    margin: 20px;
+}
+
+
+
 .subscribe-btn {
     background-color: red;
     color: white;
@@ -6,6 +51,14 @@
     width: 101px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: green;
+}
+
+.subscribe-btn:active {
+    background-color: greenyellow;
 }
 
 .join-btn {
